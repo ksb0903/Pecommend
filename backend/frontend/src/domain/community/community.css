@@ -1,0 +1,116 @@
+/* 상단헤더 */
+
+/* a {
+  color: #337ab7 !important;
+  text-decoration: none;
+} */
+
+.container-temp .pernav {
+    position: relative;
+  }
+  .comnav-header-title {
+    background: url("/public/assets/img/nav/commuNav.jpg") center bottom no-repeat;
+    background-size: cover;
+  }
+  .pernav .pernav-header .comnav-header-title {
+    padding-top: 65px;
+    height: 210px;
+  }
+  
+  .tac {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .pernav .pernav-header .comnav-header-title span {
+    font-size: 35px;
+    line-height: 1;
+    color: #fff;
+  }
+  
+  .container-temp .pernav .pernav-header-menu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(25,42,59,.8);
+    border-bottom: 1px solid #3c90e2;
+  }
+  
+  .container-temp  .pernav .pernav-header-menu .per-nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  li, ol, ul {
+    list-style: none;
+  }
+  .per-nav li.is-active {
+    background: #305388;
+    border-color: #305388;
+  }
+  .per-nav li {
+    display: inline-block;
+    border-left: 1px solid #4b5766;
+  }
+  .per-nav.n7 li {
+    width: calc(100% / 6);
+  }
+  
+  .per-nav li {
+    cursor: pointer;
+    border-left: 1px solid #4b5766;
+  }
+  .per-nav li.is-active Link {
+    font-weight: 500;
+  }
+  .per-nav li a , .per-nav li Link{
+    display: block;
+    font-size: 17px;
+    padding: 16px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'S-CoreDream-4Regular';
+  }
+  .container-temp .pernav-header-menu {
+    width: 1200px;
+    margin: 0 auto;
+  }
+   .per-nav {
+    font-size: 0;
+  }
+  .container-temp .pernav .pernav-header-menu .per-nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* .pernav{
+  font-style: normal;
+  font-family: 'Noto Sans',Roboto,'맑은 고딕','Malgun Gothic','돋움',dotum,"open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust: none;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -.03em;
+  color: #24282b;
+  line-height: 1.4;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  position: relative;
+  } */
+  
+  .per-nav li.is-active+li {
+    border-left-color: #305388;
+  }
+  
+  .per-nav li:last-child {
+    border-right: 1px solid #4b5766;
+  }
+
+  .is-active {
+    background-color: #305388;
+    border-color: #305388;
+  }

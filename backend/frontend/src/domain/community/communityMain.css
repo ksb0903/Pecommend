@@ -1,0 +1,128 @@
+
+.community-main-box {
+    border: 2px solid #eeeeee;
+    /* padding: 15px; */
+    padding: 20px 28px 15px 32px;
+    border-radius: 10px;
+    margin: 10px;
+    min-height: 50px;
+    height: 300px;
+}
+.community-main-box-title h4{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.community-article-box ul li{
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.community-main > div {
+    padding: 0px;
+}
+
+.community-long-box {
+    margin: 10px;
+}
+
+.long-item-box {
+    background-color: none;
+    border-radius: 12px;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.long-item-img{
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    bottom: -5mm;
+    display: none;
+}
+
+.long-item-article {
+    /* z-index: -2; */
+    /* background-color: #c7b9b0; */
+    border-radius: 12px;
+    padding: 20px 40px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px;    */
+    color: white;
+    min-height: 152px;
+}
+
+
+.long-item-article.active{
+/* background-color: #c7b9b0; */
+/* background-color: #efd9cc; */
+background-color: #f7e9db;
+/* background-color: #ffffff; */
+/* color: #373f57; */
+color: #000000;
+border: 2px solid #eeeeee;
+height: 250px;
+}
+
+.long-item-article.active div.long-item-popular{
+    color:#fc7a85;
+    font-size: 16px;
+    font-weight: bold;
+}
+.long-item-article.active img{
+    display: flex;
+}
+.long-item-title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.long-item-title:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.long-item-name {
+    margin : 3px 0px 5px 0px;
+}
+
+.long-item-text {
+    margin : 2px 0px 3px 0px;
+    font-size: 16px;
+    width: 70%;
+}
+
+.long-item-icon {
+    color: black
+}
+.commuMain_con{
+    width: 70%;
+}
+
+@media screen and (max-width:1200px) {
+    /* 타블렛 */
+    .commuMain_con{
+        width: 100%;
+    }
+
+
+    }
+
+/* 캐러셀 화살표 색상 */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+
+.text-overflow {
+    white-space: nowrap;
+    width:90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

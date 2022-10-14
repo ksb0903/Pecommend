@@ -1,0 +1,152 @@
+.explain{ 
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    } 
+
+.text_photo:hover .default-img{ 
+    opacity: 0.5;
+    }
+
+.text_photo:hover .explain{ 
+    opacity: 1;
+    }
+
+.list-hashtag{
+  display: flex;
+  /* padding: 10px 0 10px; */
+  /* margin: 8px 0; */
+  margin: auto;
+  cursor: pointer;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.list-hashtag div{
+  float: left;
+  margin: 16px 8px 0 0;
+  padding: 7px 15px 9px 15px;
+  border-radius: 16px;
+  color: #f4f6fa;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+  background-color: #667d8e;
+  z-index: 1;
+  /* flex box 속성값 */
+  /* flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto; */
+  flex: none;
+}
+
+.side_button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side_in_button{
+  border: 0;
+}
+
+.side_btn {
+  content: "\e080";
+}
+
+/* Icon when the collapsible content is shown */
+.side_btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+}
+
+/* Icon when the collapsible content is hidden */
+.side_btn.collapsed:after {
+    content: "\e080";
+}
+
+
+.perfume_nav{
+        /* padding: 20px !important; */
+        /* border: 1px solid #e5e5e5; */
+        background-color: #BF9F78;
+        /* color: #fff; */
+        /* border-radius: 20px; */
+        /* margin: 20px 10px 34px 10px !important; */
+}
+
+.list_nav{
+    background-color: #FFF;
+    text-align: justify;
+}
+
+.group_list{
+    display:flex;
+    list-style:none;
+}
+
+.perfume-topbar {
+  text-align: center;
+  justify-content: center;
+  /* border-bottom: 1px solid black; */
+  margin-top: 10px;
+  position: relative;
+}
+
+.perfume-topbar > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.perfume-topbar > ul > li {
+  width: 30%;
+}
+
+.perfume-topbar > ul {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.perfume_list_name{
+  margin: 10px 0 0 !important; 
+}
+.product-content-koName{
+  font-size: 16px;
+}
+.product-content-enName{
+  font-size: 14px;
+}
+
+.perfume_list_page{
+  /* margin: auto; */
+  justify-content: center;
+  margin-top: 20px;
+}
+.perfume_list_page div{
+ line-height: 34px;
+ font-size: 16px;
+ /* margin: 0px 10px; */
+}
+
+.perfume_list_page_text{
+  display: flex;
+}
+.perfume_list_page_text div{
+  margin: 0xp;
+}
+
+body { 
+  font-family: Pretendard;
+  font-size: 16px;
+  }
+
+  .perfume_list_btn {
+    color: #6c757d;
+    border-color: #6c757d;
+}

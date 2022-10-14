@@ -1,0 +1,25 @@
+.topbutton {
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    padding: 0;
+    margin: 0;
+}
+
+.topbutton > button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.topbutton > button > svg {
+    width: 55%;
+    height: 55%;
+    color: white;
+    background-color: black;
+}

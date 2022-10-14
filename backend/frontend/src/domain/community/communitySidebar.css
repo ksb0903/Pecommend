@@ -1,0 +1,18 @@
+.community-topbar {
+    text-align: center;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+    margin-top: 10px;
+    position: relative;
+}
+
+.community-topbar > ul > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.searchbar {
+    margin-bottom: -1px;
+    position: absolute;
+    right:5%
+}

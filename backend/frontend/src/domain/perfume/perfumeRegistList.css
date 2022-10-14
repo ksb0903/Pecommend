@@ -1,0 +1,116 @@
+.top-bar {
+    margin-top:40px;
+    border-bottom: 2px solid rgb(40,40,40);
+    position: relative;
+}
+
+.top-bar > h4 {
+    text-align: center;
+}
+
+.top-bar > button {
+    position: absolute;
+    right:10px;
+    bottom:8px;
+    border: 1px solid rgb(50,50,50);
+    background-color: white;
+}
+
+.top-bar > button:hover {
+    background-color: blueviolet;
+}
+
+.perfume {
+    border-bottom: 1px solid #000000
+}
+
+.perfumeBox {
+    padding:10px;
+}
+
+.perfumeImg {
+    width:100%;
+}
+
+.perfumeText > h5 {
+    margin : 0;
+    margin-bottom: 2px;
+}
+
+.perfumeState {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.perfumeState-Wait {
+    background-color: #808080;
+    width: 80%;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    color: #ffffff
+}
+
+.perfumeState-Accept {
+    background-color: #87ceeb;
+    width: 80%;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    color: #000000
+}
+
+.perfumeState-Denied {
+    background-color: #cd5c5c;
+    width: 80%;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    color: #000000
+}
+
+.searchform {
+    /* padding-left: 15%; */
+    /* padding-right: 15%; */
+    width: 40%;
+    min-width: 380px;
+    margin: auto;
+}
+
+.describe {
+    background-color: white;
+    border: none;
+    resize: none;
+}
+
+.describe:focus {
+    border: none;
+}
+
+.registbutton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size:13px !important;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    /* margin-right: 10px; */
+}
+.registbutton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+.button-right{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}

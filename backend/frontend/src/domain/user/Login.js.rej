@@ -1,0 +1,21 @@
+diff a/frontend/src/domain/user/Login.js b/frontend/src/domain/user/Login.js	(rejected hunks)
+@@ -47,15 +47,12 @@
+       email: id,
+       password: pwd
+     }
+-    console.log('시작')
+     console.log(body)
+-    axios.post("/api/v1/users/login.do", body)
++    axios.post("/api/v1/user/login.do", body)
+       .then(function (response) {
+-        if (response.data.code == 0) {
+-          console.log('!!login!!')
+-        }
+-        else {
+-          console.log(response.data)
++        if (response.status == 200) {
++          localStorage.setItem("Auth", response.data.accessToken);
++          localStorage.setItem("Refresh",response.data.refreshToken);
+         }
+       }).catch(function (error) {
+         console.log(error)

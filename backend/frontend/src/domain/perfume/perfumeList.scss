@@ -1,0 +1,91 @@
+/* Icon when the collapsible content is shown */
+/* Icon when the collapsible content is hidden */
+.explain {
+	position: absolute;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+.text_photo {
+	&:hover {
+		.default-img {
+			opacity: 0.5;
+		}
+		.explain {
+			opacity: 1;
+		}
+	}
+}
+.list-hashtag {
+	display: flex;
+	margin: auto;
+	cursor: pointer;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 80%;
+	div {
+		float: left;
+		margin: 16px 8px 0 0;
+		padding: 7px 15px 9px 15px;
+		border-radius: 16px;
+		color: #373f57;
+		font-size: 14px;
+		letter-spacing: -0.5px;
+		line-height: 16px;
+		background-color: #BF9F78;
+		z-index: 1;
+		flex: none;
+	}
+}
+.side_button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.side_in_button {
+	border: 0;
+}
+.side_btn {
+	content: "\e080";
+	&:after {
+		font-family: "Glyphicons Halflings";
+		content: "\e114";
+	}
+}
+.side_btn.collapsed {
+	&:after {
+		content: "\e080";
+	}
+}
+.perfume_nav {
+	background-color: #BF9F78;
+}
+.list_nav {
+	background-color: #FFF;
+	text-align: justify;
+}
+.group_list {
+	display: flex;
+	list-style: none;
+}
+.perfume-topbar {
+	text-align: center;
+	justify-content: center;
+	margin-top: 10px;
+	position: relative;
+	>ul {
+		>li {
+			>a {
+				text-decoration: none;
+				color: #000;
+			}
+			width: 30%;
+		}
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}

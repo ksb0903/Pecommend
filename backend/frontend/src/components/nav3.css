@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0 !important;
+  /* width: 80%; */
+  padding: 0 200px;
+}
+
+.navbar__logo{
+  font-size: 24px;
+
+}
+
+.navbar__menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0px;
+  height: 100%;
+  font-family: 'NanumBarunGothic';
+}
+
+.navbar__menu li {
+  padding: 0 15px;
+  font-size: 25px;
+}
+.navbar__menu li a{
+  text-decoration: none;
+}
+.navbar__menu li a:hover{
+  /* color: #f8f8f8; */
+  font-weight: bold;
+}
+.navbar__menu li a:focus{
+  /* color: #f8f8f8; */
+  font-weight: bold;
+}
+
+
+.navbar__icons{
+  list-style: none;
+  display: flex;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.navbar__icons li{
+  padding: 8px 12px;
+}
+
+.navbar__icons li a{
+  font-size: 15px;
+  height: 100%;
+}
+
+.navbar__toogleBtn{
+  display: none;
+  position: absolute;
+  right: 32px;
+  top: 30px;
+  font-size: 24px;
+  color: #ceb3a2 !important;
+}
+
+/* 반응형 */
+@media screen and (max-width:1226px) {
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar__menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__menu li{
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__menu li:hover{
+    background-color: #ceb3a2;
+    border-radius: 4px;
+  }
+  .navbar__menu li a:hover{
+    color: #f8f8f8;
+  }
+  .navbar__icons{
+    display: none;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .navbar__toogleBtn{
+    display: block;
+  }
+  .navbar__menu.active,
+  .navbar__icons.active{
+    display: flex;
+  }
+}
+
+
+.burgerbutton {
+  background-color: rgba(255,255,255,0);
+  border:none;
+}

@@ -1,0 +1,66 @@
+.perfumeRegistBox > div {
+    margin-top:20px;
+}
+
+.NameBox {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.name-input ,
+.maker-input{
+    width:60%;
+    min-width: 250px;
+}
+
+.name-input:focus {
+    background-color: #ffffff;
+}
+
+.description-input {
+    resize: none;
+}
+
+.MakerBox {
+    display: flex;
+    flex-direction: column !important;
+}
+
+
+
+.maker-input:focus {
+    background-color: #ffffff;
+}
+
+.ButtonArea {
+    display:flex;
+    justify-content: end;
+}
+
+.BackButton {
+    margin:5px;
+    background-color: #cd5c5c;
+    border: none;
+    color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.BackButton:hover {
+    color: #000000;
+}
+
+.AcceptButton {
+    margin:5px;
+    background-color: #87ceeb;
+    border: none;
+    color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.AcceptButton:hover {
+    color: #000000;
+}

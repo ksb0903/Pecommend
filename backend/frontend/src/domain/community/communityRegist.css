@@ -1,0 +1,73 @@
+.hrtag {
+    margin: 0px 15px 0px 15px;
+}
+
+.community-regist-head {
+    background-color: bisque;
+    text-align: center;
+    margin: 10px 15px 0px 15px;
+}
+
+.regist-topbar-item {
+    display: flex;
+    align-items: center;
+    margin:10px 15px 10px 15px;
+}
+
+.regist-topbar-item-name {
+    text-align: center;
+    width:100px;
+}
+
+.regist-topbar-item-context {
+    width: auto;
+}
+
+.regist-dropdown {
+    border: none;
+    background-color: white;
+}
+
+.context-title {
+    width: 100%;
+}
+
+.regist-topbar-title {
+    height: auto;
+    background-color: white;
+    padding: 5px 3px 5px 3px;
+}
+
+.community-regist-text {
+    margin: 40px 15px 15px 15px;
+}
+
+.regist-textarea {
+    background-color: white;
+    border: 1px solid #bbbdc1;
+    padding : 25px;
+    resize: none;
+}
+
+.regist-textarea:focus {
+    border: 2px solid #bbbdc1;
+}
+
+.community-regist-bottombar {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    padding-right: 18px;
+}
+
+.fontS {
+    font-size: 16px !important;
+}
+
+.ck img {
+    width:500px
+}
+
+.communityRegist > form {
+    padding:0 8% 0 8%;
+}

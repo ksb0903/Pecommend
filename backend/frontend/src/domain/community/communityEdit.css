@@ -1,0 +1,121 @@
+.hrtag {
+    margin: 0px 15px 0px 15px;
+}
+
+.community-regist-topbar {
+    margin: 20px 0px 20px 0px;
+}
+
+.regist-topbar-item {
+    display: flex;
+    align-items: center;
+    margin:10px 15px 10px 15px;
+}
+
+.regist-topbar-item-name {
+    text-align: center;
+    width:100px;
+}
+
+.regist-topbar-item-context {
+    width: auto;
+}
+
+.regist-dropdown {
+    border: none;
+    background-color: white;
+}
+
+.context-title {
+    width: 100%;
+}
+
+.regist-topbar-title {
+    height: auto;
+    background-color: white;
+    padding: 5px 3px 5px 3px;
+}
+
+.community-regist-text {
+    margin: 40px 15px 15px 15px;
+}
+
+.regist-textarea {
+    background-color: white;
+    border: 1px solid #bbbdc1;
+    padding : 25px;
+    resize: none;
+}
+
+.regist-textarea:focus {
+    border: 2px solid #bbbdc1;
+}
+
+.community-regist-bottombar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.regist-cancel {
+    margin : 0px 15px 0px 0px;
+    border: none;
+    background-color: #9c3737;
+    padding: 3px 6px 3px 6px;
+    color: #ffffff;
+}
+
+.regist-submit {
+    margin : 0px 15px 0px 0px;
+    border: none;
+    background-color: bisque;
+    padding: 3px 6px 3px 6px;
+}
+
+.registBtn {
+	box-shadow:inset 0px 1px 3px 0px #97c4fe;
+	background-color:#3d94f6;
+	border-radius:5px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #1570cd;
+    margin-left: 10px;
+}
+.registBtn:hover {
+	/* background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%); */
+	/* background-color:#1e62d0; */
+    color: black;
+}
+.registBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.cancleBtn {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#ffffff;
+	border-radius:5px;
+	border:1px solid #3d94f6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3d94f6;
+	font-size:15px;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+    margin-right: 10px;
+}
+.cancleBtn:hover {
+	/* background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%); */
+	/* background-color:#ffffff; */
+    color: black;
+}
+.cancleBtn:active {
+	position:relative;
+	top:1px;
+}
